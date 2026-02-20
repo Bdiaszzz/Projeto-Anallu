@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <h1 align="center"> AnalluProject </h1>
+=======
+<h1 align="center"> AnalluProject</h1>
+>>>>>>> d06cde20aed060265bf7ad4d39a874312ffceedd
 
 <p align="center">
 Projeto de agregador de links desenvolvido durante o evento Discover da Rocketseat. <br/>
