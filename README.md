@@ -1,8 +1,7 @@
-<h1 align="center"> AnalluProjec </h1>
+<h1 align="center"> AnalluProject </h1>
 
 <p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-
+Projeto de agregador de links desenvolvido durante o evento Discover da Rocketseat. <br/>
 </p>
 
 <p align="center">
@@ -19,21 +18,21 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+  <img alt="projeto DevLinks" src="./.github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
+- **HTML** e **CSS**
+- **JavaScript**
+- **Git** e **Github**
+- **Figma**
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+O **DevLinks** é um agregador de links personalizado, ideal para ser utilizado como um cartão de visitas online em bio de redes sociais.
 
 ## 🔖 Layout
 
@@ -45,4 +44,12 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito por Paulo Dias by Rocketseat
+<p align="center">
+  Feito com ♥ por <strong>Paulo Dias</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/paulo-dias-engsoftware/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>

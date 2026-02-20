@@ -3,37 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-colo-hover: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
+
 .light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-colo-hover: rgba(0, 0, 0, 0.02);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
-  /*
-  background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-}
-*/
-  /*background:color image repeat positio/ size */
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
+
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
@@ -43,8 +38,9 @@ body * {
   width: 100%;
   max-width: 588px;
   margin: 56px auto 0px;
-  padding: 0 24 0px;
+  padding: 0 24px 0; /* Linha 47 corrigida */
 }
+
 #profile {
   text-align: center;
   padding: 24px;
@@ -55,6 +51,7 @@ body * {
   width: 112px;
   margin: auto;
 }
+
 #profile p {
   font-weight: 500;
   line-height: 24px;
@@ -81,6 +78,7 @@ body * {
   top: 50%;
   animation: slide-back 0.2s;
 }
+
 #switch span {
   display: block;
   width: 64px;
@@ -90,6 +88,7 @@ body * {
   backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
+
 .light #switch button {
   animation: slide-in 0.4s forwards;
 }
@@ -98,7 +97,6 @@ body * {
   outline: 8px solid var(--highlight-color);
 }
 
-/* Links */
 ul {
   list-style-type: none;
   display: flex;
@@ -106,6 +104,7 @@ ul {
   gap: 16px;
   padding: 24px 0;
 }
+
 ul li a {
   justify-content: center;
   display: flex;
@@ -122,16 +121,17 @@ ul li a {
 }
 
 ul li a:hover {
-  background: var(--surface-colo-hover);
+  background: var(--surface-color-hover); /* Linha 113 corrigida */
   border: 1.5px solid var(--text-color);
 }
+
 #social-links {
   display: flex;
   justify-content: center;
-
   padding: 24px 0;
   font-size: 24px;
 }
+
 #social-links a {
   display: flex;
   align-items: center;
@@ -143,13 +143,14 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
-  padding: 16px;
 }
+
 footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
 }
+
 @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
@@ -158,6 +159,7 @@ footer {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
+
 @keyframes slide-in {
   from {
     left: 0;
@@ -166,6 +168,7 @@ footer {
     left: 50%;
   }
 }
+
 @keyframes slide-back {
   from {
     left: 50%;
