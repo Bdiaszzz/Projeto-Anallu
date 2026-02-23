@@ -188,14 +188,29 @@ footer {
   overflow: hidden;
 }
 
+/* Tamanho padrão (Mobile) */
 .candy {
   position: absolute;
-  top: -50px; /* Começa fora da tela */
-  font-size: 2rem;
+  top: -50px;
+  font-size: 1.2rem; /* Tamanho menor para celulares */
   user-select: none;
   animation: fall linear forwards;
 }
 
+/* ... restante do seu código ... */
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+
+   .candy {
+    font-size: 2.5rem;
+  }
+}
 @keyframes fall {
   to {
     transform: translateY(110vh) rotate(360deg); /* Cai até o fundo e gira */
