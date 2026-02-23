@@ -32,7 +32,7 @@ function createCandy() {
   candy.innerText = candies[Math.floor(Math.random() * candies.length)]
 
   candy.style.left = Math.random() * 100 + "vw"
-  const duration = Math.random() * 3 + 3
+  const duration = Math.random() * 10 + 10
   candy.style.animationDuration = duration + "s"
   candy.style.fontSize = Math.random() * 1.5 + 1 + "rem"
 
@@ -43,4 +43,4 @@ function createCandy() {
   }, duration * 1000)
 }
 
-setInterval(createCandy, 300)
+setInterval(createCandy, 600)
