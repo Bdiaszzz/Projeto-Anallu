@@ -177,3 +177,27 @@ footer {
     left: 0;
   }
 }
+#candy-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Use vw para largura total */
+  height: 100vh; /* Use vh para altura total */
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.candy {
+  position: absolute;
+  top: -50px; /* Começa fora da tela */
+  font-size: 2rem;
+  user-select: none;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg); /* Cai até o fundo e gira */
+  }
+}

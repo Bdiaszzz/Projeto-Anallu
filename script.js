@@ -16,3 +16,31 @@ function toggleMode() {
     img.setAttribute("alt", "Foto de perfil modo escuro")
   }
 }
+// Remova a linha 'const container = ...' que estava fora das funções
+
+function createCandy() {
+  // Coloque a busca do container aqui dentro
+  const container = document.getElementById("candy-container")
+
+  // Se o container ainda não existir na tela, não faz nada (evita o erro no console)
+  if (!container) return
+
+  const candy = document.createElement("div")
+  candy.classList.add("candy")
+
+  const candies = ["🍬", "🍭", "🍫", "🍩", "🍪", "🧁"]
+  candy.innerText = candies[Math.floor(Math.random() * candies.length)]
+
+  candy.style.left = Math.random() * 100 + "vw"
+  const duration = Math.random() * 3 + 3
+  candy.style.animationDuration = duration + "s"
+  candy.style.fontSize = Math.random() * 1.5 + 1 + "rem"
+
+  container.appendChild(candy)
+
+  setTimeout(() => {
+    candy.remove()
+  }, duration * 1000)
+}
+
+setInterval(createCandy, 300)
