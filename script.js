@@ -26,7 +26,6 @@ function createCandy() {
 
   candy.style.left = Math.random() * 100 + "vw"
 
-  // Aumentei um pouco a duração para a queda ser mais suave
   const duration = Math.random() * 5 + 5
   candy.style.animationDuration = duration + "s"
 
