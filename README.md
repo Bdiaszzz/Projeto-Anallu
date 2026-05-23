@@ -21,17 +21,11 @@
 
 <br/>
 
-<p align="center">
-  <img alt="Preview do projeto AnalluDoces DevLinks" src="./.github/preview.jpg" width="100%">
-</p>
-
 ---
 
 ## 📌 Sobre o projeto
 
 O **AnalluDoces DevLinks** é uma página de agregador de links construída para a confeitaria **AnalluDoces**, servindo como ponto central de acesso aos canais de atendimento, cardápios e redes sociais da marca.
-
-O projeto foi desenvolvido durante o evento **Discover** da [Rocketseat](https://rocketseat.com.br) e personalizado para uso real em produção, com identidade visual própria da confeitaria.
 
 ### 🔗 Links disponíveis na página
 
@@ -68,10 +62,10 @@ O projeto foi desenvolvido durante o evento **Discover** da [Rocketseat](https:/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Bdiaszzz/Projeto-Anallu
 
 # Acesse a pasta do projeto
-cd seu-repositorio
+cd Projeto-Anallu
 
 # Abra com Live Server (VS Code) ou diretamente no navegador
 # Extensões recomendadas estão em .vscode/extensions.json
@@ -98,14 +92,8 @@ O layout base do projeto pode ser visualizado pelo [Figma](https://www.figma.com
 
 ---
 
-## :memo: Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👨‍💻 Autor
 
-Feito com ♥ por **Paulo Dias**
+Feito por **Paulo Dias**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-dias-engsoftware/)
